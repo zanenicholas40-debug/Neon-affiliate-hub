@@ -1,0 +1,25 @@
+{
+  "name": "neon-affiliate-hub",
+  "version": "1.0.0",
+  "description": "Neon Affiliate Hub - A static website with Vercel Analytics",
+  "type": "module",
+  "scripts": {
+    "dev": "npx serve .",
+    "build": "echo 'Static site - no build needed'",
+    "lint": "echo 'No linter configured'"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/zanenicholas40-debug/Neon-affiliate-hub.git"
+  },
+  "keywords": ["analytics", "vercel", "static-site"],
+  "author": "",
+  "license": "ISC",
+  "bugs": {
+    "url": "https://github.com/zanenicholas40-debug/Neon-affiliate-hub/issues"
+  },
+  "homepage": "https://github.com/zanenicholas40-debug/Neon-affiliate-hub#readme",
+  "dependencies": {
+    "@vercel/analytics": "^2.0.1"
+  }
+}
